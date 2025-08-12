@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicNote 文档中心</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            line-height: 1.6; 
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h1 { 
+            color: #1a73e8; 
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin: 10px 0;
+        }
+        .doc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .doc-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+        .doc-card:hover {
+            border-color: #1a73e8;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(26, 115, 232, 0.15);
+        }
+        .doc-card h3 {
+            color: #1a73e8;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .doc-card p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .doc-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9em;
+            color: #888;
+        }
+        .badge {
+            background: #1a73e8;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #666;
+        }
+        .featured {
+            background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+            border-left: 4px solid #1a73e8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>📝 TicNote 文档中心</h1>
+            <h2>智能笔记，让记录更简单</h2>
+        </div>
+
+        <div class="doc-grid">
+            <a href="ticnote-privacy-policy.html" class="doc-card featured">
+                <h3>🔒 隐私政策</h3>
+                <p>了解 TicNote 如何保护您的个人信息，包括数据收集、使用、存储和共享的详细说明。</p>
+                <div class="doc-meta">
+                    <span>📄 HTML 文档</span>
+                    <span class="badge">重要</span>
+                </div>
+            </a>
+
+            <a href="ticnote-guide.html" class="doc-card">
+                <h3>📖 使用指南</h3>
+                <p>详细的 TicNote 使用教程，帮助您快速上手并充分利用所有功能。</p>
+                <div class="doc-meta">
+                    <span>📄 HTML 文档</span>
+                    <span class="badge">指南</span>
+                </div>
+            </a>
+
+            <a href="plaud-privacy-policy.html" class="doc-card">
+                <h3>🔐 Plaud 隐私政策</h3>
+                <p>Plaud 相关服务的隐私政策，包含数据处理和用户权利的详细说明。</p>
+                <div class="doc-meta">
+                    <span>📄 HTML 文档</span>
+                    <span class="badge">参考</span>
+                </div>
+            </a>
+
+            <div class="doc-card">
+                <h3>🖼️ 产品概览</h3>
+                <p>TicNote 产品组件和功能概览图，帮助您了解产品结构。</p>
+                <div class="doc-meta">
+                    <span>🖼️ 图片文件</span>
+                    <span class="badge">概览</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>GitHub Pages 部署</strong> | 最后更新：2025年1月</p>
+            <p>© 2025 TicNote - 智能笔记，让记录更简单</p>
+        </div>
+    </div>
+</body>
+</html>
