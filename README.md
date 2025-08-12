@@ -4,10 +4,7 @@
 
 ## 📁 项目内容
 
-- **🔒 隐私政策** (`ticnote-privacy-policy.html`) - TicNote 隐私政策
 - **📖 使用指南** (`ticnote-guide.html`) - TicNote 使用教程
-- **🔐 Plaud 隐私政策** (`plaud-privacy-policy.html`) - Plaud 相关服务隐私政策
-- **🖼️ 产品概览** (`ticnote_parts_overview.jpg`) - 产品组件概览图
 
 ## 🚀 部署到 GitHub Pages
 
@@ -85,10 +82,7 @@
 
 ```
 ├── index.html                    # 主页
-├── ticnote-privacy-policy.html   # TicNote 隐私政策
 ├── ticnote-guide.html           # TicNote 使用指南
-├── plaud-privacy-policy.html    # Plaud 隐私政策
-├── ticnote_parts_overview.jpg   # 产品概览图
 ├── README.md                    # 项目说明
 └── .gitignore                   # Git 忽略文件
 ```
